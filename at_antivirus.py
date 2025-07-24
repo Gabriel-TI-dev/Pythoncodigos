@@ -8,7 +8,7 @@ import time
 #pyautogui.write-> escrever
 
 #o programa faz uma pausa á cada codigo executado
-pyautogui.PAUSE = 5
+pyautogui.PAUSE = 10
 
 #Passo 1-> Abrir as configurações
 pyautogui.press("win")
@@ -16,7 +16,7 @@ pyautogui.write("config")
 pyautogui.press("enter")
 
 #tempo para pagina carregar por completo
-time.sleep(10)
+time.sleep(15)
 
 #Passo 2-> Localizar o antivirus e clicar para começar a execução
 pyautogui.click(x=706, y=555)
